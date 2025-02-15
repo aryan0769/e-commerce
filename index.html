@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="nav-left">
+        <a href="#" class="logo">ShopStyle</a>
+        <div class="nav-links">
+          <a href="#" class="active">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">Collections</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button class="search-btn">Search</button>
+        <button class="cart-btn">Cart (0)</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="product-page">
+    <div class="breadcrumb">
+      <a href="#">Home</a> /
+      <a href="#">Shop</a> /
+      <span>Premium Leather Backpack</span>
+    </div>
+
+    <div class="product-container">
+      <div class="product-gallery">
+        <div class="main-image">
+          <img src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3" alt="Premium Leather Backpack">
+        </div>
+        <div class="thumbnail-grid">
+          <img src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3" alt="Backpack view 1" class="active">
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62" alt="Backpack view 2">
+          <img src="https://images.unsplash.com/photo-1547949003-9792a18a2601" alt="Backpack view 3">
+          <img src="https://images.unsplash.com/photo-1577733966973-d680bffd2e80" alt="Backpack view 4">
+        </div>
+      </div>
+
+      <div class="product-info">
+        <span class="product-category">Bags & Accessories</span>
+        <h1>Premium Leather Backpack</h1>
+        <div class="product-rating">
+          <div class="stars">
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star half">★</span>
+          </div>
+          <span class="rating-count">4.5 (128 reviews)</span>
+        </div>
+
+        <div class="product-price">
+          <span class="current-price">₹189.99</span>
+          <span class="original-price">₹239.99</span>
+          <span class="discount">20% OFF</span>
+        </div>
+
+        <p class="product-description">
+          Crafted from premium full-grain leather, this versatile backpack combines timeless style with modern functionality. 
+          Perfect for daily commutes or weekend adventures, it features a padded laptop compartment, multiple organizer pockets, 
+          and durable water-resistant construction.
+        </p>
+
+        <div class="product-features">
+          <h3>Key Features</h3>
+          <ul>
+            <li>Premium full-grain leather construction</li>
+            <li>15" padded laptop compartment</li>
+            <li>Water-resistant coating</li>
+            <li>Multiple interior organizer pockets</li>
+            <li>Adjustable padded shoulder straps</li>
+          </ul>
+        </div>
+
+        <div class="product-colors">
+          <h3>Available Colors</h3>
+          <div class="color-options">
+            <button class="color-btn active" style="--color: #8B4513" aria-label="Brown"></button>
+            <button class="color-btn" style="--color: #000000" aria-label="Black"></button>
+            <button class="color-btn" style="--color: #808080" aria-label="Gray"></button>
+            <button class="color-btn" style="--color: #8B0000" aria-label="Dark Red"></button>
+          </div>
+        </div>
+
+        <div class="add-to-cart">
+          <div class="quantity">
+            <button class="qty-btn minus">−</button>
+            <input type="number" value="1" min="1" max="10">
+            <button class="qty-btn plus">+</button>
+          </div>
+          <button class="add-to-cart-btn">Add to Cart</button>
+          <button class="wishlist-btn">♥</button>
+        </div>
+
+        <div class="product-meta">
+          <div class="meta-item">
+            <span class="meta-icon">🚚</span>
+            <span class="meta-text">Free shipping on orders over ₹50</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-icon">↩️</span>
+            <span class="meta-text">30-day easy returns</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-icon">🛡️</span>
+            <span class="meta-text">2-year warranty</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="reviews">
+      <h2>Customer Reviews</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde" alt="John D." class="reviewer-img">
+            <div>
+              <h4>John D.</h4>
+              <div class="stars">
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+              </div>
+            </div>
+          </div>
+          <p>Perfect for daily use! The leather quality is exceptional and it just gets better with age. Highly recommend!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Sarah M." class="reviewer-img">
+            <div>
+              <h4>Sarah M.</h4>
+              <div class="stars">
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star">★</span>
+              </div>
+            </div>
+          </div>
+          <p>Great backpack with plenty of storage. The laptop compartment is well padded and the straps are comfortable.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61" alt="Mike R." class="reviewer-img">
+            <div>
+              <h4>Mike R.</h4>
+              <div class="stars">
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star filled">★</span>
+                <span class="star half">★</span>
+              </div>
+            </div>
+          </div>
+          <p>Stylish and functional. I've received many compliments on this bag. The water resistance really works!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-products">
+      <h2>You May Also Like</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62" alt="Canvas Backpack">
+          <h3>Canvas Backpack</h3>
+          <div class="stars">
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star">★</span>
+          </div>
+          <p class="price">₹129.99</p>
+          <button>Quick View</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1577733966973-d680bffd2e80" alt="Travel Backpack">
+          <h3>Travel Backpack</h3>
+          <div class="stars">
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+          </div>
+          <p class="price">₹159.99</p>
+          <button>Quick View</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1547949003-9792a18a2601" alt="Laptop Backpack">
+          <h3>Laptop Backpack</h3>
+          <div class="stars">
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star filled">★</span>
+            <span class="star half">★</span>
+          </div>
+          <p class="price">₹144.99</p>
+          <button>Quick View</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About ShopStyle</h3>
+        <p>Curating quality products for the modern lifestyle.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Returns</a>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for updates and exclusive offers.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 ShopStyle. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
